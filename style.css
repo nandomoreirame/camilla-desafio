@@ -73,11 +73,27 @@ a {
   color: #f8b759;
 }
 
-main {
+.principal {
+  margin: 0 auto;
+  max-width: 1000px;
   text-align: center;
 }
 
-main h1 {
+.principal h1 {
   font-size: 22px;
   text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.chamada {
+  font-size: 20px;
+  color: #f8b759;
+  text-transform: uppercase;
+}
+
+.imagem {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 12px;
 }
